@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Administrativo | Francisco Rocha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    FRANCISCO <span>ROCHA</span>
+                </a>
+
+                <button id="btnSair" class="btn-enviar">
+                    Sair do painel
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="painel-admin">
+
+        <p class="destaque">ÁREA RESTRITA</p>
+        <h1>Painel Administrativo</h1>
+
+        <p>Gerenciamento das mensagens recebidas pelo portfólio.</p>
+
+        <div class="painel-resumo">
+            <h2>Mensagens recebidas</h2>
+            <h3 id="totalMensagens">0</h3>
+        </div>
+
+        <section class="tabela-mensagens">
+            <h2>Caixa de entrada</h2>
+
+            <div id="listaMensagens">
+                Carregando mensagens...
+            </div>
+        </section>
+
+    </main>
+
+    <script src="painel.js"></script>
+
+</body>
+</html>

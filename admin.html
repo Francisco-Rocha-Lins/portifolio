@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área Administrativa | Francisco Rocha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="admin-login">
+        <div class="admin-login-card">
+
+            <p class="destaque">ÁREA RESTRITA</p>
+
+            <h1>Painel Administrativo</h1>
+
+            <p>Acesso exclusivo para administração do portfólio.</p>
+
+            <form id="formLogin">
+                <div class="campo">
+                    <label for="usuario">Usuário</label>
+                    <input
+                        type="text"
+                        id="usuario"
+                        placeholder="Digite o usuário"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="senha">Senha</label>
+                    <input
+                        type="password"
+                        id="senha"
+                        placeholder="Digite a senha"
+                        required
+                    >
+                </div>
+
+                <button type="submit" class="btn-enviar">
+                    Entrar no painel
+                </button>
+
+                <p id="mensagemLogin"></p>
+            </form>
+
+            <a href="index.html" class="projeto-link">
+                Voltar ao portfólio
+            </a>
+
+        </div>
+    </main>
+
+    <script src="admin.js"></script>
+
+</body>
+</html>
